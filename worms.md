@@ -1,0 +1,16 @@
+Worms
+A worm is a computer program that has the ability to copy itself from machine to machine. Worms use up computer time and network bandwidth when they replicate, and often carry payloads that do considerable damage. A worm called Code Red made huge headlines in 2001. Experts predicted that this worm could clog the Internet so effectively that things would completely grind to a halt.
+A worm usually exploits some sort of security hole in a piece of software or the operating system. For example, the Slammer worm (which caused mayhem in January 2003) exploited a hole in Microsoft's SQL server. "Wired" magazine took a fascinating look inside Slammer's tiny (376 byte) program.
+Worms normally move around and infect other machines through computer networks. Using a network, a worm can expand from a single copy incredibly quickly. The Code Red worm replicated itself more than 250,000 times in approximately nine hours on July 19, 2001 [Source: Rhodes].
+The Code Red worm slowed down Internet traffic when it began to replicate itself, but not nearly as badly as predicted. Each copy of the worm scanned the Internet for Windows NT or Windows 2000 servers that did not have the Microsoft security patch installed. Each time it found an unsecured server, the worm copied itself to that server. The new copy then scanned for other servers to infect. Depending on the number of unsecured servers, a worm could conceivably create hundreds of thousands of copies.
+The Code Red worm had instructions to do three things:
+Replicate itself for the first 20 days of each month 
+Replace Web pages on infected servers with a page featuring the message "Hacked by Chinese" 
+Launch a concerted attack on the White House Web site in an attempt to overwhelm it [Source: eEye Digital Security] 
+Upon successful infection, Code Red would wait for the appointed hour and connect to the www.whitehouse.gov domain. This attack would consist of the infected systems simultaneously sending 100 connections to port 80 of www.whitehouse.gov (198.137.240.91).
+The U.S. government changed the IP address of www.whitehouse.gov to circumvent that particular threat from the worm and issued a general warning about the worm, advising users of Windows NT or Windows 2000 Web servers to make sure they installed the security patch. .
+Reported Viruses
+According to a report by Symantec published in September 2007, the company received more than 212,000 reports of viruses, worms and other threats during the first half of 2007, a 185% increase over the second half of 2006.
+A worm called Storm, which showed up in 2007, immediately started making a name for itself. Storm uses social engineering techniques to trick users into loading the worm on their computers. So far, it's working -- experts believe between one million and 50 million computers have been infected [source: Schneier]. 
+When the worm is launched, it opens a back door into the computer, adds the infected machine to a botnet and installs code that hides itself. The botnets are small peer-to-peer groups rather than a larger, more easily identified network. Experts think the people controlling Storm rent out their micro-botnets to deliver spam or adware, or for denial-of-service attacks on Web sites.
+In the next section, we'll look at patching your system and other things you can do to protect your 
